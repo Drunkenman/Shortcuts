@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_main_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="设置dynamic shortcuts"/>
+    <Button
+        android:id="@+id/btn_main_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="click"
+        android:text="更改dynamic shortcuts"/>
+    <Button
+        android:id="@+id/btn_main_remove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="click"
+        android:text="移除dynamic shortcuts"/>
+    <Button
+        android:id="@+id/btn_main_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="click"
+        android:text="添加桌面快捷方式"/>
+    <Button
+        android:id="@+id/btn_main_disable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="click"
+        android:text="使桌面快捷方式无效"/>
+
+</LinearLayout>

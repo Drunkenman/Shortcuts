@@ -1,0 +1,19 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="shortcuts_m1"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_label_short1"
+        android:shortcutLongLabel="@string/shortcut_label_long1"
+        android:shortcutDisabledMessage="@string/shortcut_label_msg1">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="hankin.shortcuts"
+            android:targetClass="hankin.shortcuts.MainActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+
+    </shortcut>
+
+</shortcuts>
